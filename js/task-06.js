@@ -4,6 +4,4 @@ inputEl.addEventListener('blur', event => {
   event.currentTarget.value.length === Number(inputEl.dataset.length)
     ? inputEl.classList.add('valid')
     : inputEl.classList.add('invalid');
-
-  console.log(inputEl.dataset.length);
 });
