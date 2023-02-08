@@ -16,7 +16,7 @@ const images = [
 const galeryEl = document.querySelector('.gallery');
 
 const imagesEl = images.map(el => {
-  const newItem = document.createElement('img');
+  const imgEl = document.createElement('img');
 
   galeryEl.insertAdjacentHTML(
     'beforeend',
